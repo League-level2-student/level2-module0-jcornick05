@@ -31,7 +31,7 @@ public class _01_RobotRace {
 					rob[i].move(100);
 					rob[i].turn(30);
 				}
-				// rob[i].move(rand);
+				 //rob[i].move(rand);
 				int e = i + 1;
 				if (rob[i].getY() > 410 && rob[i].getX() < 125) {
 					JOptionPane.showMessageDialog(null, "robot" + e + " wins!!");
